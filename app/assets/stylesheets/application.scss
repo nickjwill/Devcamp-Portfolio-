@@ -1,3 +1,4 @@
+
 @import "bootstrap";
 
 /*
@@ -163,13 +164,17 @@ body {
 
 /*
  * Custom Styles
-*/
+ */
 
 .card-block {
   color: black;
-  text_align: left;
+  text-align: left;
 }
 
 .auth-links a {
   color: black;
+}
+
+.register-text {
+  text-align: right;
 }

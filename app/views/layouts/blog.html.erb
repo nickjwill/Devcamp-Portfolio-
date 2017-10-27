@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
-    <meta name="keywords" content"<%= @seo_keywords %>" />
+    <meta name="keywords" content="<%= @seo_keywords %>" />
 
     <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -18,28 +18,23 @@
     <%= render 'shared/blog_nav' %>
 
     <!-- start of blog header -->
-     <div class="blog-header">
+    <div class="blog-header">
       <div class="container">
-        <h1 class="blog-title">The Bootstrap Blog</h1>
+        <h1 class="blog-title">My Blog</h1>
         <p class="lead blog-description">An example blog template built with Bootstrap.</p>
+        <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
       </div>
     </div>
     <!-- end of blog header -->
 
-    <!-- start of container -->
-       <div class="container">
+    <div class="container">
 
       <div class="row">
-    <!-- end of container -->
-
-
-
-        <%= login_helper %>
 
         <%= yield %>
 
-        <!-- Start of Sidebar -->
-                <div class="col-sm-3 offset-sm-1 blog-sidebar">
+        <!-- start of sidebar -->
+        <div class="col-sm-3 offset-sm-1 blog-sidebar">
           <div class="sidebar-module sidebar-module-inset">
             <h4>About</h4>
             <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
@@ -70,21 +65,19 @@
             </ol>
           </div>
         </div>
-        <!-- End of Sidebar -->
+        <!-- end of sidebar -->
+      </div>
 
-        <!-- Start of footer -->
+        <!-- start of footer -->
         <footer class="blog-footer">
           <p>Blog template built for <a href="https://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
           <p>
             <a href="#">Back to top</a>
           </p>
         </footer>
-        <!-- End of footer -->
-
-        <%= render "shared/nav", location: 'bottom' %>
+        <!-- end of footer -->
 
         <%= source_helper("blog") %>
-      </div>
     </div>
   </body>
 </html>

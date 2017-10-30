@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator 
-    NickjwillViewTool::Renderer.copyright 'Nick Williams', 'All Rights reserved'
+    NickjwillViewTool::Renderer.copyright 'Nick Williams', 'Nick Williams, All Rights reserved'
   end
 end
 

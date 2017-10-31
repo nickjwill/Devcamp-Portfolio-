@@ -33,7 +33,7 @@ class BlogsController < ApplicationController
 
     respond_to do |format|
       if @blog.save
-        format.html { redirect_to @blog, notice: 'Blog was successfully created.' }
+        format.html { redirect_to @blog, notice: 'Your Blog is now Live.' }
         format.json { render :show, status: :created, location: @blog }
       else
         format.html { render :new }

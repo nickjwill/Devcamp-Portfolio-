@@ -3,6 +3,8 @@
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 Nav
@@ -60,7 +62,7 @@ footer p {
 
 /* Custom styles */
 
-.portfolio-form {
-  padding: 20px;
+.portfolio-container {
+  padding-top: 30px;
 }
 

@@ -3,11 +3,19 @@
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+padding-left: .5rem;
+padding-right: .5rem;
 }
 
-Nav
+.new_portfolio {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.edit_portfolio {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
 
 
 .jumbotron {

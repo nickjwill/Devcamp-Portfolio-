@@ -29,11 +29,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(https://images.pexels.com/photos/574116/pexels-photo-574116.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
-
 }
 body {
   color: #fff;
@@ -178,18 +173,24 @@ body {
 .card-block {
   color: black;
   text-align: left;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  margin-top: 1rem;
 }
 
 .auth-links a {
   color: black;
+  margin-bottom: 2rem;
 }
 
 .register-text {
-  text-align: right;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .login > .card {
-  width: 22rem;
+  width: 23rem;
   margin: 0 auto;
   float: none;
 }
@@ -199,6 +200,24 @@ body {
   margin-right: 10px;
 }
 
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('home_bg.png') no-repeat;
+  background-size: cover;
+}
+
+.app-footer {
+  color: white;
+}
 
 
 

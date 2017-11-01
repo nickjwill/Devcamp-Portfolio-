@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "gritter";
 
 /*
  * Globals
@@ -217,6 +218,10 @@ body {
 
 .app-footer {
   color: white;
+}
+
+.cover-heading {
+  font-family: 'Anton', sans-serif;
 }
 
 

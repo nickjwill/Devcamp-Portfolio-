@@ -20,21 +20,21 @@ padding-right: .5rem;
 
 
 .jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   margin-bottom: 0;
+  background: url(sea-tide.jpg) no-repeat center;
+  background-size: 100% 100%;
+
 }
 
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
 
-.jumbotron-heading {
-  font-weight: 300;
-}
 
 .jumbotron .container {
-  max-width: 40rem;
+ 
 }
 
 .album {
@@ -71,7 +71,4 @@ footer p {
 
 /* Custom styles */
 
-.portfolio-container {
-  padding-top: 30px;
-}
 

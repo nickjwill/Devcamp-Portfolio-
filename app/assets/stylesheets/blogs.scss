@@ -37,6 +37,9 @@ h6, .h6 {
   max-width: 60rem;
 }
 
+.row {
+  width: 100%;
+}
 
 /*
  * Masthead for nav
@@ -113,7 +116,7 @@ h6, .h6 {
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
-  padding: 1rem;
+  float: right;
   /*margin: 0 -1rem 1rem;*/
 }
 .sidebar-module-inset {

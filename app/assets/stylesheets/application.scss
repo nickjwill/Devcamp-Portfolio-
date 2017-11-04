@@ -163,7 +163,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -221,7 +221,15 @@ body {
 }
 
 .cover-heading {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+}
+
+.lead {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px
 }
 
 

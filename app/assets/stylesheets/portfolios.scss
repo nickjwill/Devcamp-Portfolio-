@@ -20,21 +20,22 @@ padding-right: .5rem;
 
 
 .jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 4.5%;
+  padding-bottom: 9%;
   margin-bottom: 0;
+  background: url(portfoliobanner.jpg) no-repeat center;
+  background-size: 50%;
+  background-color: black;
+
 }
 
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
 
-.jumbotron-heading {
-  font-weight: 300;
-}
 
 .jumbotron .container {
-  max-width: 40rem;
+ 
 }
 
 .album {
@@ -71,7 +72,4 @@ footer p {
 
 /* Custom styles */
 
-.portfolio-container {
-  padding-top: 30px;
-}
 

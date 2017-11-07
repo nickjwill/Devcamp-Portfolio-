@@ -6,7 +6,17 @@ body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
 padding-left: .5rem;
 padding-right: .5rem;
+font-family: 'Anton', sans-serif;
 }
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Anton', sans-serif;
+}
+
 
 .new_portfolio {
   margin-left: 5rem;

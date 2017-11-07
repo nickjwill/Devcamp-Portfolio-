@@ -27,14 +27,25 @@ a:hover {
  * Base structure
  */
 
+
 html,
 body {
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Nunito', sans-serif;
 }
 
 
@@ -221,18 +232,41 @@ body {
 }
 
 .cover-heading {
-  font-family: 'Open Sans', sans-serif;
   font-size: 60px;
   font-weight: bolder;
   color: white;
 }
 
 .lead {
-  font-family: 'Open Sans', sans-serif;
   font-size: 40px
 }
 
+.app-card-container {
+  color: black;
+  text-align: left;
+}
 
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skill {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 
 

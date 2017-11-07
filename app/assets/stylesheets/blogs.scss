@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Roboto', sans-serif;
   color: #555;
 }
 
@@ -23,8 +23,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: 'Nunito', sans-serif;
   color: #333;
 }
 
@@ -190,3 +189,25 @@ h6, .h6 {
 .comment-name {
   font-weight: 700;
 }
+
+/*edit and delete icons in edit page */
+.pull-right {
+  margin-right: 15rem;
+}
+
+.blogcrumb a {
+  font-size: 1.25em;
+  margin: 0px 10px 0px 10px;
+}
+
+.blog-nav {
+  margin-bottom: 30px;
+}
+
+.blog-sidebar-source {
+  margin-top: 20px;
+}
+
+
+
+

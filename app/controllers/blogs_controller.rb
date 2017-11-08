@@ -8,21 +8,21 @@ class BlogsController < ApplicationController
   # GET /blogs.json
   def index
     if logged_in?(:site_admin)
-    @blogs = Blog.recent.page(params[:page]).per(5)
-  else
-    @blogs = Blog.published.recent.page(params[:page]).per(5)
-  end
+      @blogs = Blog.recent.page(params[:page]).per(5)
+    else
+      @blogs = Blog.published.recent.page(params[:page]).per(5)
+    end
     @page_title = "My Portfolio Blog"
   end
 
   # GET /blogs/1
   # GET /blogs/1.json
   def show
-    if logged_in?(:site_admin)  || @blog.published?
+    if logged_in?(:site_admin) || @blog.published?
       @blog = Blog.includes(:comments).friendly.find(params[:id])
       @comment = Comment.new
 
-      @page_title = @blog.title 
+      @page_title = @blog.title
       @seo_keywords = @blog.body
     else
       redirect_to blogs_path, notice: "You are not authorized to access this page"
@@ -45,11 +45,9 @@ class BlogsController < ApplicationController
 
     respond_to do |format|
       if @blog.save
-        format.html { redirect_to @blog, notice: 'Your Blog is now Live.' }
-        format.json { render :show, status: :created, location: @blog }
+        format.html { redirect_to @blog, notice: 'Your post is now live.' }
       else
         format.html { render :new }
-        format.json { render json: @blog.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -60,13 +58,14 @@ class BlogsController < ApplicationController
     respond_to do |format|
       if @blog.update(blog_params)
         format.html { redirect_to @blog, notice: 'Blog was successfully updated.' }
-        format.json { render :show, status: :ok, location: @blog }
       else
         format.html { render :edit }
-        format.json { render json: @blog.errors, status: :unprocessable_entity }
       end
     end
   end
+
+  # DELETE /blogs/1
+  # DELETE /blogs/1.json
   def destroy
     @blog.destroy
     respond_to do |format|
@@ -81,24 +80,22 @@ class BlogsController < ApplicationController
     elsif @blog.published?
       @blog.draft!
     end
-
-    redirect_to blogs_url, notice: 'Post status has been updated'
+        
+    redirect_to blogs_url, notice: 'Post status has been updated.'
   end
 
   private
+    # Use callbacks to share common setup or constraints between actions.
     def set_blog
       @blog = Blog.friendly.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def blog_params
-      params.require(:blog).permit(:title, :body, :topic, :status)
+      params.require(:blog).permit(:title, :body, :topic_id, :status)
     end
-  
+
     def set_sidebar_topics
-      @sidebar_topics = Topic.with_blogs
+      @side_bar_topics = Topic.with_blogs
     end
 end
-
-
-

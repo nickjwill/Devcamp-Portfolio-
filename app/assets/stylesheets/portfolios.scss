@@ -2,54 +2,33 @@
 @import "jquery-ui";
 @import "gritter";
 
+
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
-padding-left: .5rem;
-padding-right: .5rem;
-font-family: 'Roboto', sans-serif;
-}
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-
-.new_portfolio {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
-.edit_portfolio {
-  padding-left: 20rem;
-  padding-right: 20rem;
-}
-
-.row  {
-margin-right: 20px;
-margin-left: 20px;
-margin-bottom: 20px;
-margin-top: 20px;
-}
-.jumbotron {
-  padding-top: 4.5%;
-  padding-bottom: 9%;
+.navbar {
   margin-bottom: 0;
-  background-color: black;
-  background: url(portfoliobanner.jpg) no-repeat center;
-  background-size: 50%;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
 }
 
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
 
+.jumbotron-heading {
+  font-weight: 300;
+}
 
 .jumbotron .container {
-  
+  max-width: 40rem;
 }
 
 .album {
@@ -57,6 +36,16 @@ margin-top: 20px;
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #f7f7f7;
+}
+
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Passion One', cursive;
 }
 
 .card {
@@ -86,4 +75,6 @@ footer p {
 
 /* Custom styles */
 
-
+.portfolio-container {
+  padding-top: 30px;
+}

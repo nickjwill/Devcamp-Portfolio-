@@ -30,8 +30,13 @@ a:hover {
 
 html,
 body {
+  background: url(blueskytree.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 body {
   color: #fff;
@@ -45,7 +50,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Passion One', cursive;
 }
 
 
@@ -69,7 +74,7 @@ h6, .h6 {
 
 /* Padding for spacing */
 .inner {
-  padding: 2rem;
+  float: center;
   
 }
 
@@ -82,7 +87,7 @@ h6, .h6 {
   margin-bottom: 2rem;
 }
 
-.masthead-brand {
+.brand {
   margin-left: -30rem;
   margin-bottom: 0;
   padding-top: -25rem
@@ -104,7 +109,7 @@ h6, .h6 {
 }
 
 .nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
+  margin-right: 10rem;
 }
 
 .nav-masthead .active {
@@ -117,7 +122,7 @@ h6, .h6 {
     float: center;
   }
   .nav-masthead {
-    float: center;
+    float: right;
   }
 }
 
@@ -125,6 +130,7 @@ h6, .h6 {
 /*
  * Cover
  */
+
 
 .cover {
   padding: 0 1.5rem;
@@ -212,29 +218,15 @@ h6, .h6 {
   margin-right: 10px;
 }
 
-#background {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: image-url('z') no-repeat;
-  background-size: cover;
-}
-
 .app-footer {
   color: white;
 }
 
-.cover-heading {
-  font-size: 60px;
+.cover-heading-bounce {
+  font-size: 100px;
   font-weight: bolder;
   color: white;
+  
 }
 
 .lead {
@@ -247,12 +239,16 @@ h6, .h6 {
 }
 
 .app-card-container > .card {
-  padding: 40px;
+  background: rgba(20, 20, 20, .5);
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.profile-img {
-  border: 1px solid grey;
-}
 
 .app-card-container a {
   color: blue;
@@ -269,11 +265,20 @@ h6, .h6 {
 }
 
 .about-card {
-  background-color: white;
-  color: black;
+   background: rgba(20, 20, 20, .5);
+  color: white;
   margin-top: 100px;
   margin-bottom: 50px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+
+.profile-img {
+  border: 3px solid grey;
+}
+
 
 
 

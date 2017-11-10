@@ -7,36 +7,26 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Passion+One" rel="stylesheet">
 
     <meta name="keywords" content"<%= @seo_keywords %>" />
 
     <%= favicon_link_tag 'favicons/njw.ico' %>
 
+    <link rel="stylesheet" href="animate.min.css">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+    <%= render "shared/application_nav" %>
 
   <body>
-   
+      
      <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
-
-          <%= video_tag(
-            'cloudscape.mp4', 
-            id: 'background',
-            autoplay: true,
-            loop: true,
-            muted: true,
-            poster: 'cloudscape.jpg'
-            )
-            %>
-
-
-          <%= render "shared/application_nav" %>
 
            <%= yield %>
 

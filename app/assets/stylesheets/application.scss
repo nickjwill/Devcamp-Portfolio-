@@ -30,18 +30,14 @@ a:hover {
 
 html,
 body {
-  background: url(lighthouse.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  height: 100%
 }
+
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, .h1,
@@ -187,6 +183,21 @@ h6, .h6 {
 /*
  * Custom Styles
  */
+
+ #background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('blueskytree.jpg') no-repeat;
+  background-size: cover;
+}
 
 .card-block {
   color: black;

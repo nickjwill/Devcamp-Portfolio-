@@ -46,7 +46,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Passion One', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
@@ -56,11 +56,9 @@ h6, .h6 {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
-          box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+  
 }
 .site-wrapper-inner {
-  display: table-cell;
   vertical-align: top;
 }
 .cover-container {
@@ -195,7 +193,7 @@ h6, .h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('blueskytree.jpg') no-repeat;
+  background: image-url('whitepolys.jpeg') no-repeat;
   background-size: cover;
 }
 
@@ -233,12 +231,6 @@ h6, .h6 {
   color: white;
 }
 
-.cover-heading-bounce {
-  font-size: 100px;
-  font-weight: bolder;
-  color: white;
-  
-}
 
 .lead {
   font-size: 40px
@@ -276,7 +268,7 @@ h6, .h6 {
 }
 
 .about-card {
-   background: rgba(20, 20, 20, .5);
+   background: rgba(20, 20, 20, .3);
   color: white;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -288,6 +280,172 @@ h6, .h6 {
 
 .profile-img {
   border: 3px solid grey;
+}
+
+/**title Page --------------------> /
+
+/* Box-Sizing */
+box-sizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-size: 100%;
+  width: 100%;
+  margin: 2em auto 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+
+}
+
+section {
+  /*overflow: hidden;*/
+  width: 63em;
+  margin-top: 12px;
+}
+
+p {
+  margin: 0;
+
+}
+
+.cover-title {
+ 
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 1% 7% 1% 10%;
+  float: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  
+  display: block;
+ /* box-shadow: 0em 0em 5em rgba(10,10,10,0.7); */
+}
+
+.stack {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 9em;
+  line-height: 0.8em;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-shadow: 0px 3px 2px #b2a98f,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 34px 30px rgba(0,0,0,0.1);
+}
+
+.lead {
+
+
+  }
+
+
+span {
+position: relative;
+  
+
+}
+
+/* N */
+.char1 {
+  margin-left: -.2em;
+  z-index: 4;
+  text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+}
+
+/* i */
+.char2 {
+ z-index: 3; 
+ margin-left: -.175em;
+  top: 0.08em;
+  text-shadow: -0.02em 0.02em 0.2em rgba(10,10,10,0.9);
+
+}
+
+/* c */
+.char3 {
+  z-index: 9;
+  margin-left: -.125em;
+  text-shadow: -0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+  
+}
+
+/* k */
+.char4 {
+  z-index: 5;
+  margin-left: -.175em;
+  text-shadow: 0.02em -0.02em 0.2em rgba(10,10,10,0.9);
+}
+
+/* W */
+.char5 {
+  z-index: 2;
+  margin-left: -.125em;
+  top: 0.08em;
+  text-shadow: -0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+}
+
+/* I */
+.char6 {
+  z-index: 10;
+    margin-left: -.125em;
+  top: -0.04em;
+  text-shadow: 0em 0em 0.2em rgba(10,10,10,0.9);
+  
+}
+
+/* L */
+.char7 {
+  z-index: 8;
+  margin-left: -.3em;
+  top: 0em;
+  text-shadow: -0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+  
+}
+
+/* L */
+.char8 {
+  z-index: 6;
+  margin-left: -.135em;
+  top: -0.05em;
+  text-shadow: 0.02em -0.01em 0.2em rgba(10,10,10,0.9);
+}
+
+/* I */
+.char9 {
+  z-index: 7;
+      margin-left: -.125em;
+  top: 0em;
+  text-shadow: 0.03em -0.03em 0.2em rgba(10,10,10,0.8);
+}
+
+/* A */
+.char10 {
+  z-index: 1;
+       margin-left: -.125em;
+  top: 0em;
+  text-shadow: 0.05em -0.05em 0.2em rgba(10,10,10,0.9);
+}
+
+/* M */
+.char11 {
+  z-index: 0;
+  top: -.04em;
+   margin-left: -.125em;
+  text-shadow: -0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+}
+
+/* S */
+.char12 {
+  z-index: 0;
+  top: -.04em;
+   margin-left: -.125em;
+  text-shadow: -0.05em 0.05em 0.2em rgba(10,10,10,0.9);
 }
 
 

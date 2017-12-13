@@ -2,10 +2,19 @@
 @import "jquery-ui";
 @import "gritter";
 
+@font-face {
+  font-family: 'Lato';
+  src:font-url('Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src:font-url('RobotoSlab-Regular.ttf');
+}
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar {
@@ -45,7 +54,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Passion One', cursive;
+  font-family: 'Roboto Slab', serif;
 }
 
 .card {
@@ -77,4 +86,15 @@ footer p {
 
 .portfolio-container {
   padding-top: 30px;
+}
+
+.portfolio-box{
+  border : 2px solid transparent;    
+  -webkit-transition : border 500ms ease-out; 
+  -moz-transition : border 500ms ease-out;
+  -o-transition : border 500ms ease-out;
+}
+
+.portfolio-box:hover{
+  border : 2px solid #d3d3d3;
 }

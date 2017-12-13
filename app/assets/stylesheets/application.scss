@@ -37,7 +37,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Roboto';
 }
 
 h1, .h1,
@@ -46,7 +46,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Paytone One', sans-serif;
+    font-family:'Roboto';
 }
 
 
@@ -84,16 +84,13 @@ h6, .h6 {
 }
 
 .brand {
-  margin-left: -30rem;
-  margin-bottom: 0;
-  padding-top: -25rem
 }
 
 
 .nav-masthead .nav-link {
   padding: .10rem 20;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 2rem;
   color: white;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
@@ -128,9 +125,7 @@ h6, .h6 {
  */
 
 
-.cover {
-  padding: 0 1.5rem;
-}
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: bold;
@@ -286,22 +281,57 @@ h6, .h6 {
 
 /* HOME PAGE */
 
-h3 {
-  /* margin: 20px; */
-  color: grey;
+
+#cover-container {
+  color:black;
   text-transform: uppercase;
-  letter-spacing: -4px;
+  font-size:60px;
+  font-weight:bold;
+  padding-top:153px;  
+  width:105%;
+  height:28%;
+  bottom:60%;
+  display:block;
 }
 
-h3 span {
-  display: block;
-  margin: 11px 0 17px 0;
-  font-size: 120px;
-  line-height: 85px;
-  color: #f4f5f7;
-  text-shadow: 0 13.36px 8.896px black,0 -2px 1px #35373a;
-  letter-spacing: -4px;
+#flip {
+  height:85px;
+  overflow:hidden;
 }
+
+#flip > div > div {
+  color:#fff;
+  padding:-38px 110px;
+  height:64px;
+  margin-bottom:20px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 7s linear infinite;
+}
+
+#flip div div {
+  background:#42c58a;
+}
+#flip div:first-child div {
+  background:#4ec7f3;
+}
+#flip div:last-child div {
+  background:#DC143C;
+}
+
+@keyframes show {
+  0% {margin-top:-250px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
 
 
 

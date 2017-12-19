@@ -263,7 +263,7 @@ h6, .h6 {
 }
 
 .about-card {
-   background: rgba(20, 20, 20, .3);
+  background: rgba(20, 20, 20, .3);
   color: white;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -280,6 +280,7 @@ h6, .h6 {
 /* HOME PAGE */
 
 
+/*=======Animated Title-------*/
 #cover-container {
   color:black;
   text-transform: uppercase;
@@ -329,10 +330,13 @@ h6, .h6 {
   99.99% {margin-top:0px;}
   100% {margin-top:-270px;}
 }
+/*-----End of Title--------*/
 
 
-
-
+/*----About ME -----------*/
+.about-par {
+  font-size: 21px;
+}
 
 
 

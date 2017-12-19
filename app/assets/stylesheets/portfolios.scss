@@ -98,15 +98,18 @@ h6, .h6 {
   border: 0;
   background-color: white;
   border-radius: 5px;
+  border-color: black;
   font-size: 1.3em;
 }
+
 .card a {
-  color: #9BB4AF;
+  color: black;
   font-size: 1.1em;
 }
 .card a:hover {
   color: #CE5D5D;
 }
+
 .card > img {
   margin-bottom: 3%;
 }
@@ -132,7 +135,7 @@ footer p {
 }
 
 .portfolio-box{
-  border : 2px solid transparent;    
+  border : 2px solid #BDBDBD;    
   -webkit-transition : border 500ms ease-out; 
   -moz-transition : border 500ms ease-out;
   -o-transition : border 500ms ease-out;

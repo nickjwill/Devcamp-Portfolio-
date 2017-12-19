@@ -74,49 +74,45 @@ h6, .h6 {
   
 }
 
-
 /*
  * Header
  */
-
-.masthead {
-  margin-bottom: 2rem;
+/*Nav Bar*/
+.globalnav {
+  overflow: hidden;
+  background-color: #4F4F54;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  z-index: 10;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.brand {
-}
-
-
-.nav-masthead .nav-link {
-  padding: .10rem 20;
-  font-weight: bold;
-  font-size: .9rem;
+.globalnav a {
   color: white;
+  display: inline-block;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+.globalnav a:hover {
+  color: rgb(206,93,93);
+  font-size: 1.3em;
+  text-decoration: underline;
+  text-decoration-style: single;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255,255,255,.25);
+.globalnav .active {
+  color: rgb(206,93,93);
+  font-size: 1.3em;
+  text-decoration: underline;
+  text-decoration-style: single;
 }
-
-.nav-masthead .nav-link + .nav-link {
-  margin-right: 10rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: center;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
-
 
 /*
  * Cover

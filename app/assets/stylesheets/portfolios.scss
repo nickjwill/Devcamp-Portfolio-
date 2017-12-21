@@ -2,18 +2,11 @@
 @import "jquery-ui";
 @import "gritter";
 
-@font-face {
-  font-family:'Roboto';
-}
 
-@font-face {
-  font-family: 'Roboto Slab';
-  src:font-url('RobotoSlab-Regular.ttf');
-}
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
-  font-family:'Roboto';
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*Start of Nav Bar*/
@@ -87,7 +80,8 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
 }
 .card {
   color: black;
@@ -116,6 +110,7 @@ h6, .h6 {
 
 .card-text {
   font-size: 85%;
+  font-weight: bold;
 }
 
 

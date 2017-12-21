@@ -37,7 +37,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
-  font-family:'Roboto';
+  font-family:'Open Sans', sans-serif;
 }
 
 h1, .h1,
@@ -233,7 +233,7 @@ h6, .h6 {
 }
 
 .app-card-container > .card {
-  background: rgba(20, 20, 20, .5);
+  background: rgba(20, 20, 20, .6);
   color: white;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -259,9 +259,9 @@ h6, .h6 {
 }
 
 .about-card {
-  background: rgba(20, 20, 20, .3);
+  background: rgba(20, 20, 20, .6);
   color: white;
-  margin-top: 100px;
+  margin-top: 95px;
   margin-bottom: 50px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -331,7 +331,7 @@ h6, .h6 {
 
 /*----About ME -----------*/
 .about-par {
-  font-size: 21px;
+  font-size: 22px;
 }
 
 

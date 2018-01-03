@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "gritter";
+@import "font-awesome";
 
 /*
  * Globals
@@ -232,8 +233,8 @@ h6, .h6 {
 }
 
 .app-card-container > .card {
-  background: rgba(20, 20, 20, .6);
-  color: white;
+  background: white;
+  color: black;
   margin-top: 100px;
   margin-bottom: 50px;
   padding-left: 1rem;
@@ -291,5 +292,13 @@ h6, .h6 {
 
 .main-img {
   padding-left: 10px;
+}
+
+/*-----CONTACT---------*/
+.city-title {
+  font-size: 50px;
+}
+.contact-info {
+  font-size: 25px;
 }
 

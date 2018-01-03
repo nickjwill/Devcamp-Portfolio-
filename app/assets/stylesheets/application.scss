@@ -9,7 +9,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #F85B3A;
 }
 
 /* Custom default button */
@@ -272,74 +272,19 @@ h6, .h6 {
   border: 3px solid grey;
 }
 
-/* HOME PAGE */
+/* MAIN PAGE TITLE */
 .page-title {
-  padding-top: 9rem;
+  padding-top: 5rem;
   font-family: 'Raleway', sans-serif;
   color: white;
-  font-size: 125px;
+  font-size: 115px;
   text-shadow: 5px 6px #4F4F54;
   line-height: 78%;
 }
 
-.figure {
-  margin-left: 1em;
-}
-
-/*=======Animated Title-------*/
-/*#cover-container {
-  color:black;
-  text-transform: uppercase;
-  font-size:60px;
-  font-weight:bold;
-  padding-top:153px;  
-  width:105%;
-  height:28%;
-  bottom:60%;
-  display:block;
-}
-
-#flip {
-  height:85px;
-  overflow:hidden;
-}
-
-#flip > div > div {
-  color:#fff;
-  padding:-38px 110px;
-  height:64px;
-  margin-bottom:20px;
-  display:inline-block;
-}
-
-#flip div:first-child {
-  animation: show 7s linear infinite;
-}
-
-#flip div div {
-  background:#42c58a;
-}
-#flip div:first-child div {
-  background:#4ec7f3;
-}
-#flip div:last-child div {
-  background:#DC143C;
-}
-
-@keyframes show {
-  0% {margin-top:-250px;}
-  5% {margin-top:-180px;}
-  33% {margin-top:-180px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top:0px;}
-  99.99% {margin-top:0px;}
-  100% {margin-top:-270px;}*/
-/*}
-*//*-----End of Title--------*/
 
 
-/*----About ME -----------*/
+/*----About ME PAGE-----------*/
 .about-par {
   font-size: 22px;
 }

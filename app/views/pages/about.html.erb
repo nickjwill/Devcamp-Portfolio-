@@ -1,87 +1,67 @@
-<div class="app-card-container">
-  <div class="about-card">
-    <h1>About Me</h1>
-
-    <hr>
-    <hr>
-
-    <div class="row">
-      <div class="col-md-4">
-        <%= image_tag "mepic.jpg", width: 300, alt: "profile image" %>
-      </div>
-
-      <div class="col-md-8">
-        <p class="about-par">I'm a full stack developer with previous background in management. I have a great passion for all things visual and technical. I love creating interactive web experiences that bring brands to life.
-
-        When I am not developing I enjoy spending my time snowboarding, hiking, binge watching TV series and spending time with my family.</p>
-
-
-    <p>
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-toggle="collapse"
-            data-target="#frontEnd"
-            aria-expanded="false"
-            aria-controler="frontEnd"
-          >
-            Front End
-          </button>
-
-          <button
-            class="btn btn-primary"
-            type="button"
-            data-toggle="collapse"
-            data-target="#backEnd"
-            aria-expanded="false"
-            aria-controler="backEnd"
-          >
-            Back End
-          </button>
-
-        </p>
-
-        <p>
-          <div class="collapse" id="frontEnd">
-            <div class="card card-block">
-              HTML5
-            </div>
-            <div class="card card-block">
-              SCSS
-            </div>
-            <div class="card card-block">
-              Angular
-            </div>
-            <div class="card card-block">
-              UX Designer
-            </div>
-            <div class="card card-block">
-              UI Designer
-            </div>
-            <div class="card card-block">
-              TypeScript
-            </div>
-            <div class="card card-block">
-              JavaScript
-            </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="main-img">
+          <%= image_tag "pot.jpg", width: 325, alt: "Card image cap" %>
           </div>
+        </div>
+        <div class="col-md-8">
+          <h1 class="page-title large-title">
+            ABOUT ME 
+          </h1>
+          <p class="about-par">I'm a full stack developer with previous background in management. I have a great passion for all things visual and technical. I love creating interactive web experiences that bring brands to life.
 
-          <div class="collapse" id="backEnd">
-            <div class="card card-block">
-              Ruby on Rails
-            </div>
-            <div class="card card-block">
-              MySQL
-            </div>
-            <div class="card card-block">
-              Postgres
-            </div>
-            <div class="card card-block">
-              API Development
-            </div>
-          </div>
-        </p>
+          When I am not developing I enjoy spending my time snowboarding, hiking, binge watching TV series and spending time with my family.</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
+<hr>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-4">
+          <%= image_tag "DESIGNER.jpg", width: 350, alt: "Card image cap" %>
+        </div>
+        <div class="col-md-4">
+          <%= image_tag "v-c.jpg", width: 350, alt: "Card image cap" %>
+        </div>
+        <div class="col-md-4">
+          <%= image_tag "CREATIVE.jpg", width: 350, alt: "Card image cap" %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" <%= image_tag "DESIGNER.jpg", width: 350, alt: "Card image cap" %>>
+    <div class="card-block">
+      <h4 class="card-title">Front-end</h4>
+      <ul>HTML</ul>
+      <ul>CSS</ul>
+      <ul>UX/UI</ul>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" <%= image_tag "nickbw.jpg", width: 350, alt: "Card image cap" %>>
+    <div class="card-block">
+      <h4 class="card-title">Back-end</h4>
+      <ul>RUBY ON RAILS</ul>
+      <ul>MYSQL</ul>
+      <ul>OOP</ul>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" <%= image_tag "CREATIVE.jpg", width: 350, alt: "Card image cap" %>>
+    <div class="card-block">
+      <h4 class="card-title">ME</h4>
+      <p class="card-text">I'm a full stack developer with previous background in management. I have a great passion for all things visual and technical. I love creating interactive web experiences that bring brands to life.</p>
+    </div>
+  </div>
+</div> -->

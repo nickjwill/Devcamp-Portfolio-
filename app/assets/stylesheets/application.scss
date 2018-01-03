@@ -26,8 +26,6 @@ a:hover {
 /*
  * Base structure
  */
-
-
 html,
 body {
   height: 100%
@@ -120,9 +118,10 @@ h6, .h6 {
 
 
 
-.cover .btn-lg {
+.btn-lg {
   padding: .75rem 1.25rem;
   font-weight: bold;
+  background-color: #4F4F54;
 }
 
 
@@ -184,7 +183,7 @@ h6, .h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('whitepolys.jpeg') no-repeat;
+  background: image-url('orange-red.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -260,7 +259,7 @@ h6, .h6 {
 
 .about-card {
   background: rgba(20, 20, 20, .6);
-  color: white;
+  color: #fdf7efr;
   margin-top: 95px;
   margin-bottom: 50px;
   padding-left: 1rem;
@@ -274,10 +273,21 @@ h6, .h6 {
 }
 
 /* HOME PAGE */
+.page-title {
+  padding-top: 9rem;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 125px;
+  text-shadow: 5px 6px #4F4F54;
+  line-height: 78%;
+}
 
+.figure {
+  margin-left: 1em;
+}
 
 /*=======Animated Title-------*/
-#cover-container {
+/*#cover-container {
   color:black;
   text-transform: uppercase;
   font-size:60px;
@@ -324,9 +334,9 @@ h6, .h6 {
   66% {margin-top:-90px;}
   71% {margin-top:0px;}
   99.99% {margin-top:0px;}
-  100% {margin-top:-270px;}
-}
-/*-----End of Title--------*/
+  100% {margin-top:-270px;}*/
+/*}
+*//*-----End of Title--------*/
 
 
 /*----About ME -----------*/
@@ -334,5 +344,7 @@ h6, .h6 {
   font-size: 22px;
 }
 
-
+.main-img {
+  padding-left: 10px;
+}
 
